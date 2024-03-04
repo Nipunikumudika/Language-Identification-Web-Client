@@ -1,4 +1,4 @@
-@import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+@import "mdb-react-ui-kit/dist/css/mdb.min.css";
 .App {
   text-align: center;
 }
@@ -29,3 +29,12 @@
   color: #61dafb;
 }
 
+.screens {
+  @media screen and (min-width: 768px) {
+    width: 70vw;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100vw;
+  }
+}
